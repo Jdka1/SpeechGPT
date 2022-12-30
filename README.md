@@ -58,15 +58,14 @@ bot = SpeechGPT(session_token=session_token,
                 voice_on=True)
 ```
 
-```python
-# .listen() only runs one cycle, so it needs to be put in a loop for it to answer more than one prompt
+```.listen()``` only runs one cycle, so it needs to be put in a loop for it to answer more than one prompt
 
+```python
 while True:
   bot.listen()
-  
-# If there is a wake_word set then the bot will wait until the phrase is spoken, then start listening
 ```
 
+If the bot hears ***"quit"*** at any stage after ```.listen()``` is called then it will quit.
 
 
 # wake word
