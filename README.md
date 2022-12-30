@@ -9,7 +9,7 @@ Credit to [@terry3041](https://github.com/terry3041) for [pyChatGPT](https://git
 
 ## Features
 
-This package detects microphone input and coverts it to text using (Google's Speech Recognition API)[https://cloud.google.com/speech-to-text]. It then opens ChatGPT and inputs the recognized text.
+This package detects microphone input and coverts it to text using [Google's Speech Recognition API](https://cloud.google.com/speech-to-text). It then opens ChatGPT and inputs the recognized text.
 
 It can be used with a wake word, and it can also use text to speech to repeat ChatGPT's answer to the query. These arguements are specified in the creation of the class (see **Getting Started**)
 
