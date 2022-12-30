@@ -24,7 +24,7 @@ pip3 install speechgpt
 ***or***
 
 ```bash
-git clone https://github.com/Jdka1/SpeechGPT
+git clone https://github.com/Jdka1/SpeechGPT.git 
 ```
 
 Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same directory as your ```main.py``` file.
