@@ -51,7 +51,6 @@ class SpeechGPT:
                         
         else:
             while True:
-                print("hi")
                 try:
                     with speech_recognition.Microphone() as mic:
                         blockPrint()
