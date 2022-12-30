@@ -41,7 +41,7 @@ Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same dire
 ```python
 from speechgpt import SpeechGPT
 
-session_token = "<`__Secure-next-auth.session-token` cookie from https://chat.openai.com/chat>"
+session_token = <__Secure-next-auth.session-token cookie from https://chat.openai.com/chat>
 
 bot = SpeechGPT(session_token=session_token,
                 wake_word="wake up",
