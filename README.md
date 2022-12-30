@@ -68,10 +68,10 @@ while True:
 If the bot hears ***"quit"*** at any stage after ```.listen()``` is called then it will quit.
 
 
-# wake word
+## Disclaimer
 
-# stop listening => quit
+This package is not affiliated with OpenAI in any way. Use at your own risk. I am not responsible for any damage or harm caused by this project. Please read [OpenAI's Terms of Service](https://beta.openai.com/terms) before using this module.
 
-# returns answer
+## License
 
-# need to install portaudio with homebrew pypi
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
