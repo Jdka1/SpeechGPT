@@ -47,12 +47,15 @@ bot = SpeechGPT(session_token=session_token) # Initializing the bot
 
 bot.listen() # The bot will start listening and respond to whatever it is prompted with using ChatGPT
 ```
-If the bot is initialized with a ```python
-wake_word
-``` 
+If the bot is initialized with a ```wake_word``` value then it will wait until it hears that phrase when ```bot.listen()``` is called, and then it will start listening.
+
+If the bot is initialized with ```voice_on = True``` as an arguement, then it will use text to speech to play back ChatGPT's response.
 
 ```python
-
+# How to initialize SpeechGPT with wake_word and voice_on
+bot = SpeechGPT(session_token=session_token,
+                wake_word="wake up",
+                voice_on=True)
 ```
 
 ```python
