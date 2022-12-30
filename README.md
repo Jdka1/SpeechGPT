@@ -43,11 +43,17 @@ from speechgpt import SpeechGPT
 
 session_token = "<__Secure-next-auth.session-token cookie from https://chat.openai.com/chat>"
 
-bot = SpeechGPT(session_token=session_token,
-                wake_word="wake up",
-                voice_on=True)
+bot = SpeechGPT(session_token=session_token) # Initializing the bot
 
-bot.listen()
+bot.listen() # The bot will start listening and respond to whatever it is prompted with using ChatGPT
+# .listen() only runs one cycle, so it needs to be put in a loop for it to answer more than one prompt
+
+while True:
+  bot.listen()
+  
+
+# If there is a wake_word set then the bot will wait until the phrase is spoken, then start listening
+
 ```
 
 
