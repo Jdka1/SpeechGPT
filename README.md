@@ -29,7 +29,6 @@ git clone https://github.com/Jdka1/SpeechGPT
 
 Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same directory as your ```main.py``` file.
 
-<br>
 
 ### Usage
 
