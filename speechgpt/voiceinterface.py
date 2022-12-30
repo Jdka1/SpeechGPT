@@ -58,7 +58,6 @@ class SpeechGPT:
                         audio = self.recognizer.listen(mic)
                         audio_text = self.recognizer.recognize_google(audio).lower()
                         enablePrint()
-                        print(type(audio))
                     
                     
                     if audio_text == 'quit':
