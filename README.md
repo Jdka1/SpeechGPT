@@ -13,7 +13,18 @@ This package detects microphone input and coverts it to text using [Google's Spe
 
 It can be used with a wake word, and it can also use text to speech to repeat ChatGPT's answer to the query. These arguements are specified in the creation of the class (see **Getting Started**)
 
-# Credit terry
+
+## Getting Started
+
+### Installation
+```$ pip3 install speechgpt```
+
+**OR*
+
+```$ git clone https://github.com/Jdka1/SpeechGPT```
+
+Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same directory as your ```main.py``` file.
+
 
 # wake word
 
