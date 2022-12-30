@@ -1,5 +1,27 @@
 [build-system]
-requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
-[tool.setuptools_scm]
+[project]
+name = "speechgpt"
+version = "0.1.1"
+authors = [
+    { name="Jdka1", email="arymehr@nuevaschool.org" },
+]
+description = "A voice interface for OpenAI's ChatGPT"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    'pyChatGPT',
+    'pyttsx3',
+    'SpeechRecognition'
+]
+
+[project.urls]
+"Homepage" = "https://github.com/terry3041/pyChatGPT"
+"Bug Tracker" = "https://github.com/terry3041/pyChatGPT/issues"
