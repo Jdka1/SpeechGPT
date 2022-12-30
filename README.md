@@ -25,6 +25,7 @@ It can be used with a wake word, and it can also use text to speech to repeat Ch
 
 Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same directory as your ```main.py``` file.
 
+<br>
 
 ### Usage
 
