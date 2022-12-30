@@ -30,7 +30,7 @@ Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same dire
 
 #### Obtaining session_token
 
-[Follow these steps.](https://github.com/terry3041/pyChatGPT#usage)
+[Follow these steps](https://github.com/terry3041/pyChatGPT#usage) in [@terry3041's](https://github.com/terry3041) README.md
 
 
 
