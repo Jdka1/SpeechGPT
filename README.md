@@ -4,6 +4,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![PyPi](https://img.shields.io/badge/code_style-black+flake8-blue.svg)
 
+A voice interface for OpenAI's ChatGPT. 
+Credit to [terry3041](https://github.com/terry3041) for [pyChatGPT](https://github.com/terry3041/pyChatGPT)
+
 # Credit terry
 
 # wake word
