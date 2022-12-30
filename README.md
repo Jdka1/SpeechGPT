@@ -33,12 +33,19 @@ Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same dire
 
 [Follow these steps](https://github.com/terry3041/pyChatGPT#usage) in [@terry3041's](https://github.com/terry3041) README.md
 
-<br>
-
 #### Importing as a module
 
+```
+from speechgpt import SpeechGPT
 
+session_token = "<`__Secure-next-auth.session-token` cookie from https://chat.openai.com/chat>"
 
+bot = SpeechGPT(session_token=session_token,
+                wake_word="wake up",
+                voice_on=True)
+
+bot.listen()
+```
 
 
 
