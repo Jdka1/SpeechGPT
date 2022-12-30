@@ -48,7 +48,8 @@ bot = SpeechGPT(session_token=session_token) # Initializing the bot
 bot.listen() # The bot will start listening and respond to whatever it is prompted with using ChatGPT
 ```
 If the bot is initialized with a ```python
-wake_word``` 
+wake_word
+``` 
 
 ```python
 
