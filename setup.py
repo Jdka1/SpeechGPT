@@ -12,6 +12,7 @@ setup(
     author="Jdka (Aryan Mehra)",
     author_email="staryan.mehra@gmail.com",
     description=DESCRIPTION,
+    long_description=DESCRIPTION,
     packages=find_packages(),
     install_requires=['pyChatGPT', 'pyttsx3', 'SpeechRecognition', 'pyaudio'],
     keywords=['python', 'ai', 'voice', 'text to speech'],
