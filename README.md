@@ -19,7 +19,7 @@ It can be used with a wake word, and it can also use text to speech to repeat Ch
 ### Installation
 ```$ pip3 install speechgpt```
 
-***OR***
+***or***
 
 ```$ git clone https://github.com/Jdka1/SpeechGPT```
 
