@@ -23,5 +23,5 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/terry3041/pyChatGPT"
-"Bug Tracker" = "https://github.com/terry3041/pyChatGPT/issues"
+"Homepage" = "https://github.com/Jdka1/SpeechGPT"
+"Bug Tracker" = "https://github.com/Jdka1/SpeechGPT/issues"
