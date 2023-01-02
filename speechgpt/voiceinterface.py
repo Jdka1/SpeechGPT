@@ -15,8 +15,7 @@ def enablePrint():
 
 
 class SpeechGPT:
-    def __init__(self, session_token, wake_word = None, voice_on = True):
-        self.session_token = session_token
+    def __init__(self, wake_word = None, voice_on = True):
         self.wake_word = wake_word
         self.voice_on = voice_on
         self.recognizer = speech_recognition.Recognizer()
@@ -39,7 +38,7 @@ class SpeechGPT:
                 return
                 
             print(f"Asking ChatGPT: {audio_text}")
-            answer = askGPT(message=audio_text, session_token=self.session_token)
+            answer = askGPT(message=audio_text)
             answer = answer.replace('\n', ' ')
             print(answer)
             
