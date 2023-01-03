@@ -32,7 +32,10 @@ class SpeechGPT:
                         blockPrint()
                         self.recognizer.adjust_for_ambient_noise(mic, duration=0.2)
                         audio = self.recognizer.listen(mic)
-                        audio_text = self.recognizer.recognize_google(audio).lower()
+                        try:
+                            audio_text = self.recognizer.recognize_google(audio).lower()
+                        except speech_recognition.UnknownValueError:
+                            return
                         enablePrint()
             
             if audio_text == 'quit':
