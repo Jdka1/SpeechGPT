@@ -43,9 +43,7 @@ It is not uncommon that there are errors when installing pyaudio. If you are on 
 from speechgpt import SpeechGPT
 
 session_token = "<__Secure-next-auth.session-token cookie from https://chat.openai.com/chat>"
-
 bot = SpeechGPT(session_token=session_token) # Initializing the bot
-
 bot.listen() # The bot will start listening and respond to whatever it is prompted with using ChatGPT
 ```
 If the bot is initialized with a ```wake_word``` value then it will wait until it hears that phrase when ```bot.listen()``` is called, and then it will start listening.
