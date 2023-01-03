@@ -1,11 +1,13 @@
 from pyChatGPT import ChatGPT
 
 
-def askGPT(message, session_token):
-    api = ChatGPT(session_token)
-
-    response = api.send_message(message)
-
-    return response['message'].strip('\n')
+class ChatGPTAPI:
+    def __init__(self, session_token):
+        self.session_token = session_token
+        self.api = ChatGPT(session_token)
+        
+    def askGPT(self, message, session_token):
+        response = self.api.send_message(message)
+        return response['message'].strip('\n')
 
 

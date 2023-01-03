@@ -3,7 +3,7 @@ import sys, os
 import speech_recognition
 import pyttsx3
 
-from .askgpt import askGPT
+from .askgpt import ChatGPTAPI
 from .text_to_speech import tts
 
 
@@ -21,6 +21,7 @@ class SpeechGPT:
         self.voice_on = voice_on
         self.recognizer = speech_recognition.Recognizer()
         self.voice = tts()
+        self.api = ChatGPTAPI(session_token=self.session_token)
         
         
     def listen(self, awake=False):
@@ -39,7 +40,7 @@ class SpeechGPT:
                 return
                 
             print(f"Asking ChatGPT: {audio_text}")
-            answer = askGPT(message=audio_text, session_token=self.session_token)
+            answer = self.api.askGPT(message=audio_text, session_token=self.session_token)
             answer = answer.replace('\n', ' ')
             print(answer)
             
