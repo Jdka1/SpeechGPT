@@ -32,6 +32,8 @@ Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same dire
 
 **It is not uncommon that there are errors when installing pyaudio. If you are on macOS you may have to use homebrew to install ```portaudio```.**
 
+<br>
+
 ### Usage
 
 #### Obtaining session_token
