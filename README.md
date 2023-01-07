@@ -1,5 +1,6 @@
 # SpeechGPT
 
+[![Downloads](https://static.pepy.tech/personalized-badge/speechgpt?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads)](https://pepy.tech/project/speechgpt)
 [![PyPi](https://img.shields.io/pypi/v/speechgpt.svg)](https://pypi.python.org/pypi/speechgpt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
