@@ -19,7 +19,7 @@ It can be used with a wake word, and it can also use text to speech to repeat Ch
 
 ### Installation
 ```bash
-pip3 install speechgpt
+pip install speechgpt
 ```
 
 ***or***
@@ -30,7 +30,7 @@ git clone https://github.com/Jdka1/SpeechGPT
 
 Then navigate to ```SpeechGPT/speechgpt/``` and place the files in the same directory as your ```main.py``` file.
 
-It is not uncommon that there are errors when installing pyaudio. If you are on macOS you may have to use homebrew to install ```portaudio```.
+**It is not uncommon that there are errors when installing pyaudio. If you are on macOS you may have to use homebrew to install ```portaudio```.**
 
 ### Usage
 
