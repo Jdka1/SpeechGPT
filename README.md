@@ -8,7 +8,7 @@ A voice interface for OpenAI's ChatGPT 🎙
 
 Credit to [@terry3041](https://github.com/terry3041) for [pyChatGPT](https://github.com/terry3041/pyChatGPT) ❤️
 
-## Features
+## Features 
 
 This package detects microphone input and coverts it to text using [Google's Speech Recognition API](https://cloud.google.com/speech-to-text). It then opens [ChatGPT](https://chat.openai.com/chat) and inputs the recognized text using selenium.
 
