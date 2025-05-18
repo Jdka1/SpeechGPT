@@ -4,6 +4,18 @@
 [![PyPi](https://img.shields.io/pypi/v/speechgpt.svg)](https://pypi.python.org/pypi/speechgpt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+
+![GitHub all releases](https://img.shields.io/github/downloads/Jdka1/SpeechGPT/total?style=flat-square)
+
+![GitHub all releases](https://img.shields.io/github/downloads/Jdka1/SpeechGPT/total?style=for-the-badge)
+
+![GitHub all releases](https://img.shields.io/github/downloads/Jdka1/SpeechGPT/total?color=blue)
+
+
+![Downloads](https://img.shields.io/github/downloads/Jdka1/SpeechGPT/total?label=downloads)
+
+
+
 A voice interface for OpenAI's ChatGPT 🎙
 
 ## Features 
