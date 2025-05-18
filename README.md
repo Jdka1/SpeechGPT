@@ -8,7 +8,7 @@
 
 
 
-<p align="center">
+<p>
   <a href="https://pepy.tech/project/speechgpt">
     <img src="https://static.pepy.tech/personalized-badge/speechgpt?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads" alt="Total Downloads" height="40">
   </a>
@@ -17,19 +17,6 @@
   </a>
   <a href="https://opensource.org/licenses/MIT">
     <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License" height="40">
-  </a>
-</p>
-
-
-<p align="center">
-  <a href="https://pepy.tech/project/speechgpt">
-    <img src="https://static.pepy.tech/personalized-badge/speechgpt?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads" alt="Total Downloads" height="40">
-  </a>
-  <a href="https://pypi.python.org/pypi/speechgpt">
-    <img src="https://img.shields.io/pypi/v/speechgpt.svg" alt="PyPI Version" height="40">
-  </a>
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" height="40">
   </a>
 </p>
 
