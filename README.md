@@ -4,9 +4,10 @@
 [![PyPi](https://img.shields.io/pypi/v/speechgpt.svg)](https://pypi.python.org/pypi/speechgpt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![PyPI Downloads](https://static.pepy.tech/badge/speechgpt)
 
 
+![Downloads](https://static.pepy.tech/badge/speechgpt)
+![Monthly Downloads](https://img.shields.io/pypi/dm/speechgpt)
 
 
 A voice interface for OpenAI's ChatGPT 🎙
