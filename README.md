@@ -1,22 +1,15 @@
 # SpeechGPT
 
-[![Downloads](https://static.pepy.tech/personalized-badge/speechgpt?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads)](https://pepy.tech/project/speechgpt)
-[![PyPi](https://img.shields.io/pypi/v/speechgpt.svg)](https://pypi.python.org/pypi/speechgpt)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-
-
-
 
 <p>
   <a href="https://pepy.tech/project/speechgpt">
-    <img src="https://static.pepy.tech/personalized-badge/speechgpt?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads" alt="Total Downloads" height="30">
+    <img src="https://static.pepy.tech/personalized-badge/speechgpt?period=total&units=international_system&left_color=grey&right_color=red&left_text=Downloads" alt="Total Downloads" height="28">
   </a>
   <a href="https://pypi.org/project/speechgpt/">
-    <img src="https://img.shields.io/pypi/v/speechgpt.svg?style=flat-square&color=blue" alt="PyPI Version" height="30">
+    <img src="https://img.shields.io/pypi/v/speechgpt.svg?style=flat-square&color=blue" alt="PyPI Version" height="28">
   </a>
   <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License" height="30">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="MIT License" height="28">
   </a>
 </p>
 
