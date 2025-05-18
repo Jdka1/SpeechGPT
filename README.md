@@ -4,7 +4,8 @@
 [![PyPi](https://img.shields.io/pypi/v/speechgpt.svg)](https://pypi.python.org/pypi/speechgpt)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-![GitHub all releases](https://img.shields.io/github/downloads/Jdka1/SpeechGPT/total?style=flat-square)
+![PyPI Downloads](https://static.pepy.tech/badge/speechgpt)
+
 
 
 
