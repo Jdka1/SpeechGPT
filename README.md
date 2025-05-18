@@ -5,9 +5,21 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 
+<p align="center">
+  <a href="https://pepy.tech/project/speechgpt">
+    <img src="https://static.pepy.tech/personalized-badge/speechgpt?period=total&units=international_system&left_color=gray&right_color=red&left_text=Total Downloads" alt="Total Downloads">
+  </a>
+  <a href="https://pepy.tech/project/speechgpt">
+    <img src="https://static.pepy.tech/personalized-badge/speechgpt?period=month&units=international_system&left_color=gray&right_color=orange&left_text=Monthly Downloads" alt="Monthly Downloads">
+  </a>
+  <a href="https://pypi.org/project/speechgpt/">
+    <img src="https://img.shields.io/pypi/v/speechgpt.svg?style=flat-square&color=blue" alt="PyPI Version">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square" alt="License: MIT">
+  </a>
+</p>
 
-![Downloads](https://static.pepy.tech/badge/speechgpt)
-![Monthly Downloads](https://img.shields.io/pypi/dm/speechgpt)
 
 
 A voice interface for OpenAI's ChatGPT 🎙
